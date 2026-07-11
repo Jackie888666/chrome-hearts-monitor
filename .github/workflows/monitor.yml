@@ -1,0 +1,70 @@
+name: Chrome Hearts Monitor
+
+on:
+  schedule:
+    # GitHub's minimum schedule is every 5 minutes. Starting at minute 2 helps
+    # avoid the heaviest queue period at the top of each hour.
+    - cron: "2/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Choose what to run"
+        required: true
+        default: monitor
+        type: choice
+        options:
+          - monitor
+          - test_bark
+          - rebuild_baseline
+
+permissions:
+  contents: write
+
+concurrency:
+  group: chrome-hearts-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      BARK_URL: ${{ secrets.BARK_URL }}
+      NOTIFY_RESTOCKS: "false"
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run monitor
+        id: run-monitor
+        shell: bash
+        run: |
+          mode="${{ github.event.inputs.mode || 'monitor' }}"
+          if [ "$mode" = "test_bark" ]; then
+            python monitor.py --test-bark
+          elif [ "$mode" = "rebuild_baseline" ]; then
+            python monitor.py --reset-baseline
+          else
+            python monitor.py
+          fi
+
+      - name: Save monitor state
+        if: always()
+        shell: bash
+        run: |
+          if [ ! -f data/state.json ]; then
+            exit 0
+          fi
+          git add data/state.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update catalog state [skip ci]"
+          git push
