@@ -462,12 +462,12 @@
       "variants": []
     },
     "179527XXXXXX273": {
-      "available": false,
+      "available": true,
       "category": "Scents",
       "first_seen_at": "2026-07-11T09:28:31Z",
       "id": "179527XXXXXX273",
       "image": "https://www.chromehearts.com/dw/image/v2/BFBV_PRD/on/demandware.static/-/Sites-ch-master-catalog/default/dw2ab22df2/img_products/hi-res/179527XXXXXX273_1.png?sw=600&sh=750",
-      "last_changed_at": "2026-09-09T17:27:07Z",
+      "last_changed_at": "2026-09-09T19:57:06Z",
       "name": "+22+ Soap on a Rope",
       "present": true,
       "price": "90",
