@@ -710,17 +710,19 @@
       "category": "BOXERS & LEGGINGS",
       "first_seen_at": "2026-07-11T09:28:31Z",
       "id": "209670XXXXXXXXX",
-      "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dw1fb406e3/img_products/hi-res/407209670BUYMEDO0A_0051-V1.png?sw=600&sh=750",
-      "last_changed_at": "2026-09-25T10:18:25Z",
+      "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dw1915a00a/img_products/hi-res/407209670BLKMED00E_0021.png?sw=600&sh=750",
+      "last_changed_at": "2026-09-29T22:41:35Z",
       "name": "BOXER BRIEF - CLASSIC RIB",
       "present": true,
       "price": "130",
       "source_page": "https://www.chromehearts.com/boxers-leggings",
-      "url": "https://www.chromehearts.com/boxers-leggings/boxer-brief---classic-rib/209670XXXXXXXXX.html?dwvar_209670XXXXXXXXX_color=BUY&quantity=1&dwvar_209670XXXXXXXXX_size=LRG",
+      "url": "https://www.chromehearts.com/boxers-leggings/boxer-brief---classic-rib/209670XXXXXXXXX.html?dwvar_209670XXXXXXXXX_color=00E&quantity=1&dwvar_209670XXXXXXXXX_size=SML",
       "variants": [
-        "BLK",
+        "00E",
+        "BMS",
         "BUY",
-        "WHT"
+        "I3I",
+        "WMS"
       ]
     },
     "214141D7BXXX01S": {
