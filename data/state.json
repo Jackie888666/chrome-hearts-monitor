@@ -404,12 +404,12 @@
       "variants": []
     },
     "177731CRYXXX042": {
-      "available": true,
+      "available": false,
       "category": "Baccarat",
       "first_seen_at": "2026-07-11T09:28:31Z",
       "id": "177731CRYXXX042",
       "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dwb01f7240/img_products/hi-res/503177731CRYXXX042_0661.png?sw=600&sh=750",
-      "last_changed_at": "2026-10-10T22:06:58Z",
+      "last_changed_at": "2026-10-17T06:09:38Z",
       "name": "CHAMPAGNE FLUTE",
       "present": true,
       "price": "2800",
