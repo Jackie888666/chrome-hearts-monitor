@@ -229,7 +229,7 @@
       "first_seen_at": "2026-07-11T09:28:31Z",
       "id": "165064XXXXXX140",
       "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dw1834eddc/img_products/hi-res/407165064BLKMED140_0855.png?sw=600&sh=750",
-      "last_changed_at": "2026-10-10T22:06:58Z",
+      "last_changed_at": "2026-10-20T17:11:35Z",
       "name": "LEGGINGS",
       "present": true,
       "price": "275",
@@ -238,7 +238,6 @@
       "variants": [
         "ACB",
         "BLK",
-        "F0K",
         "PNB"
       ]
     },
