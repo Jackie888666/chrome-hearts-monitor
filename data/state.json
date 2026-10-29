@@ -151,12 +151,12 @@
       "variants": []
     },
     "162008CRYXXX271": {
-      "available": false,
+      "available": true,
       "category": "Scents",
       "first_seen_at": "2026-07-11T09:28:31Z",
       "id": "162008CRYXXX271",
       "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dwa1c19b4a/img_products/hi-res/162008CRYXXX271_1.png?sw=600&sh=750",
-      "last_changed_at": "2026-10-10T22:06:58Z",
+      "last_changed_at": "2026-10-29T19:42:28Z",
       "name": "+22+ Roll-On Perfume",
       "present": true,
       "price": "220",
@@ -179,12 +179,12 @@
       "variants": []
     },
     "162045CRYXXX273": {
-      "available": false,
+      "available": true,
       "category": "Scents",
       "first_seen_at": "2026-07-11T09:28:31Z",
       "id": "162045CRYXXX273",
       "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dwc5641986/img_products/hi-res/162045CRYXXX273_1.png?sw=600&sh=750",
-      "last_changed_at": "2026-10-10T22:06:58Z",
+      "last_changed_at": "2026-10-29T19:42:28Z",
       "name": "+22+ Scented Candle 220g",
       "present": true,
       "price": "500",
