@@ -137,12 +137,12 @@
       "variants": []
     },
     "162006CRYXXX272": {
-      "available": true,
+      "available": false,
       "category": "Scents",
       "first_seen_at": "2026-07-11T09:28:31Z",
       "id": "162006CRYXXX272",
       "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dw2d88c1ce/img_products/hi-res/162006CRYXXX272_1.png?sw=600&sh=750",
-      "last_changed_at": "2026-11-09T20:57:08Z",
+      "last_changed_at": "2026-11-14T20:32:52Z",
       "name": "+33+ Eau de Parfum",
       "present": true,
       "price": "500",
