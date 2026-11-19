@@ -270,12 +270,12 @@
       "variants": []
     },
     "174131CRYXXX013": {
-      "available": true,
+      "available": false,
       "category": "Baccarat",
       "first_seen_at": "2026-07-11T09:28:31Z",
       "id": "174131CRYXXX013",
       "image": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dw221569b5/img_products/hi-res/503174131CRYXXX013_0704.png?sw=600&sh=750",
-      "last_changed_at": "2026-11-09T20:57:08Z",
+      "last_changed_at": "2026-11-19T01:04:16Z",
       "name": "DECANTER",
       "present": true,
       "price": "4275",
